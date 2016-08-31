@@ -36,6 +36,8 @@ public class Principal{
     		aux2 = aux.nextLine() + aux2;
     		
     	}
+
+        
     	x1 = aux2.toCharArray();
     	System.out.println("Insira os dados numéricos do segundo vetor");
     	for(int i = 0; i < tam; i++){
@@ -49,7 +51,7 @@ public class Principal{
     	System.out.println("\n\n\n\n");
 
 
-    	QuikSort2.quick_sort(x1, 0, 4,x2);
+    	QuikSort2.quick_sort(x1, 0, tam-1,x2);
     
     	
     	/*
@@ -71,11 +73,11 @@ public class Principal{
     	
     	
     	
-    	for(int j = 0; j < 5; j++){
+    	for(int j = 0; j < tam; j++){
 			System.out.print(x1[j] + " , ");
 		}
     	System.out.println();
-    	for(int j = 0; j < 5; j++){
+    	for(int j = 0; j < tam; j++){
 			System.out.print(x2[j] + " , ");
 		}
     	

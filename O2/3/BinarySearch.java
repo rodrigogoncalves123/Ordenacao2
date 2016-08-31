@@ -73,7 +73,7 @@ public static void main(String []args){
 	int pos = BinarySearchRotated(v,search,0,n - 1);
 	
 	int pos2 = pos;
-	int aux = 0;
+	int aux = -1;
 	while(pos2 != - 1){
 		aux = pos2;
 		pos2 = BinarySearchRotated(v,search,0,pos2 - 1);
