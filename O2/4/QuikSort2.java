@@ -1,4 +1,4 @@
-package QuickSort;
+//package QuickSort;
 
 import java.util.Scanner;
 

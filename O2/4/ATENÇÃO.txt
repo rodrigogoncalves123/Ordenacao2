@@ -1,0 +1,5 @@
+Professor, o arquivo a classe principal é Principal.
+Tem um detalhe: Quando o senhor colocar os dados de caracter,
+é preciso sempre dar enter e não espaço por dado de caracter
+inputado.
+
