@@ -36,23 +36,6 @@ public static int BinarySearchRotated(int v[], int dado, int ini, int fim){
 
 
 
-//busca binária normal 
-public static int recursao(int []v, int ini, int fim, int dado){
-	int meio;
-	int pos = -1;
-	if(ini <= fim){
-		meio = (ini + ini)/2;
-		if(v[meio] == dado){
-			//System.out.println("passei aqui");
-			return meio;
-		}
-		else if(dado < v[meio])
-			pos = recursao(v,ini,meio-1,dado);	
-		else if(dado > v[meio])
-			pos = recursao(v,meio + 1,fim,dado);
-	}
-	return pos;
-}
 
 
 
