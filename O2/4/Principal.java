@@ -47,33 +47,10 @@ public class Principal{
     		x2[i] = aux.nextInt();
     	}
     	
-    	/*for(int i = 0; i < tam; i++){
-    		System.out.println(x[i]);
-    	}*/
-    	
-    	System.out.println("\n\n\n\n");
 
 
     	QuikSort2.quick_sort(x1, 0, tam-1,x2);
     
-    	
-    	/*
-    	char first = x1[0];
-    	
-    	int i = 0;//fim;
-    	int ini = 0;
-    	while(i < x1.length && x1[i] == first){
-    		
-    		if(i < (x1.length - 1) && x1[i + 1] != first){
-    			first = x1[i+1];
-    			Quick.quick_sort(x2,ini, i);
-    			ini = i + 1;
-    		}
-    		i++;
-    	}
-    	i--;
-    	Quick.quick_sort(x2,ini, i);*/
-    	
     	
     	
     	for(int j = 0; j < tam; j++){
