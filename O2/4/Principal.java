@@ -17,7 +17,7 @@ public class Principal{
     public static void main(String[] args) throws IOException {
     	
     	//exemplo
-    	//char x1[] = {'b','r','g','r','b'};
+    	//char x1[] = {'b','b','b','r','b','r','g'};
     	
     	
     	//int x2[] = {2,30,10,9,5};
@@ -30,15 +30,18 @@ public class Principal{
     	char []x1 = new char[tam];
 
     	int x2[] = new int[tam];
+
+
     	String aux2 = "";
         System.out.println("Insira os caracteres do primeiro vetor");
     	for(int i = 0; i < tam + 1; i++){
-    		aux2 = aux.nextLine() + aux2;
+    		aux2 = aux2 + aux.nextLine() ;
     		
     	}
 
-        
+
     	x1 = aux2.toCharArray();
+        
     	System.out.println("Insira os dados numéricos do segundo vetor");
     	for(int i = 0; i < tam; i++){
     		x2[i] = aux.nextInt();
